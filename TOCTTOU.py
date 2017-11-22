@@ -5,11 +5,11 @@
 from pathlib import Path # import Path module from library
 
 path = "file.txt"
-mode = "w" # write mode
+mode = "a" # write mode
 
 with open (path, mode) as file:
 
-    print("File open for writing. You can start writing the document below. Write <done> to finish editing")
+    print("\nFile open for writing. You can start writing the document below.\nWrite <done> in a new line to finish editing\n")
     text = ""
     line = ""
 
@@ -17,7 +17,9 @@ with open (path, mode) as file:
         line = input()
         text += line + "\n"
 
-    file.write(text[:-8])
+    file.write(text[:-7])
+
+print ("\nAll changes saved into " + path)
 
 
 
