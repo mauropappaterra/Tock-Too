@@ -1,6 +1,6 @@
 123456
 abcdefgh
-####¤¤¤¤¤&&&&///
+####Â¤Â¤Â¤Â¤Â¤&&&&///
 ((((((())))))))
 This is a test...!
 <one>
@@ -22,3 +22,16 @@ this is the first line
 ... second line
 ... third line
 ... fou... ... ...
+this is an example
+this is a bad example
+this should be a better example
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0

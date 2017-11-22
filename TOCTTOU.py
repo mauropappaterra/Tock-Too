@@ -3,12 +3,13 @@
 # Created by Mauro J. Pappaterra on 20 of November 2017.
 import sys
 
-path = "file.txt"
+path = "new.txt"
 mode = "a" # append mode
 
 try:
     with open (path, mode) as file:
-        print("\nFile open for writing. You can start writing the document below.\nWrite <done> in a new line to finish editing!\n")
+        print("\nFile " + path + " opened for writing. You can now start writing on this file."
+              "\nTo finish editing write <done> on a new line, then press enter.\n")
         text = ""
         line = ""
 
@@ -18,10 +19,11 @@ try:
 
         file.write(text[:-7])
         print("\nAll changes saved into " + path)
-#except:
-#    print ("\nError could not write into file " + path)
+
 except IOError as e:
-    print ("I/O error({0}): {1}".format(e.errno, e.strerror))
+    print("\nError could not write into file " + path +
+          "I/O error({0}): {1}".format(e.errno, e.strerror))
 except:
-    print ("Unexpected error:", sys.exc_info()[0])
+    print ("\nError could not write into file " + path +
+           "Unexpected error:", sys.exc_info()[0])
     raise
