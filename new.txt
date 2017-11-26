@@ -35,3 +35,13 @@ this should be a better example
 2
 1
 0
+%%%%%%%%%%%%
+&&&&&&&&&&
+@@@@@@@@
+=====
+>>>
+||
+*
+this is a line
+another line
+end line

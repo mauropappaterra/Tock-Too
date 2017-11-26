@@ -22,8 +22,8 @@ try:
 
 except IOError as e:
     print("\nError could not write into file " + path +
-          "I/O error({0}): {1}".format(e.errno, e.strerror))
+          "\nI/O error({0}): {1}".format(e.errno, e.strerror))
 except:
     print ("\nError could not write into file " + path +
-           "Unexpected error:", sys.exc_info()[0])
+           "\nUnexpected error:", sys.exc_info()[0])
     raise
