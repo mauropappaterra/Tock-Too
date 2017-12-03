@@ -7,19 +7,19 @@ TOCTTOU stands for 'Time of check to time of use', you can learn more about this
 -To execute from the command line on a Ms Windows system you need to <a href="https://docs.python.org/2/using/windows.html">add Python to the PATH environmental variable.</a><br>
 
 <h5>From the command line:</h5>
-1. Open a terminal
-2. Navigate to the folder where the file is found
-3. On the command line execute:
-> python3 TOCTTOU.py 
-4. Do not hesitate to contact me if you have any problems running this program
+1. Open a terminal <br>
+2. Navigate to the folder where the file is found <br>
+3. On the command line execute: <br>
+> python3 TOCTTOU.py  <br>
+4. Do not hesitate to contact me if you have any problems running this program <br>
 
 <h5>From a Python Interpreter:</h5>
-1. Open Python
-2. On the prompt execute:
-> exec(open("**path**/TOCTTOU.py").read())<
-
-Replace **path** with the local path to the folder that contains the file TOCTTOU.py
-3. Do not hesitate to contact me if you have any problems running this program
+1. Open Python <br>
+2. On the prompt execute: <br>
+> exec(open("**path**/TOCTTOU.py").read())< <br>
+ <br>
+Replace **path** with the local path to the folder that contains the file TOCTTOU.py <br>
+3. Do not hesitate to contact me if you have any problems running this program <br>
 
 
 <h3>Test Instructions:</h3>
