@@ -10,7 +10,7 @@ Run file <b>TOCTTOU.py</b> as instructed below. Follow each of the tests and ref
 <b>Test III - </b>Run the program, without any writing rights on the file.<br>
 <b>Test IV - </b>Turn your writing permissions back on. Run the program normally, edit the file then remove it before trying to save any changes.<br>
 
-<br>
+<hr>
 <h3>Instructions to run the program</h3>
 -To run this program in your computer you need to <a href="https://www.python.org/downloads/">download and install Python 3.</a><br>
 -To execute from the command line on a Ms Windows system you need to <a href="https://docs.python.org/2/using/windows.html">add Python to the PATH environmental variable.</a><br>
@@ -27,5 +27,3 @@ Run file <b>TOCTTOU.py</b> as instructed below. Follow each of the tests and ref
 2. On the prompt execute: <br>
 &nbsp &nbsp &nbsp <code>> exec(open("<i>path</i>/TOCTTOU.py").read())</code> <br>
 &nbsp &nbsp &nbsp <b>Notice: Replace <i>path</i> with the local path to the folder that contains the file TOCTTOU.py</b> <br>
-
-
