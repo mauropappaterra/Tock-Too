@@ -12,13 +12,14 @@ Run file <b>TOCTTOU.py</b> as instructed below. Follow each of the tests and ref
 
 <hr>
 <h3>Instructions to run the program</h3>
+-Clone or download this repository<br>
 -To run this program in your computer you need to <a href="https://www.python.org/downloads/">download and install Python 3.</a><br>
 -To execute from the command line on a Ms Windows system you need to <a href="https://docs.python.org/2/using/windows.html">add Python to the PATH environmental variable.</a><br>
 -Do not hesitate to contact me if you have any problems running this program <br>
 
 <h5>From the command line:</h5>
 1. Open a terminal <br>
-2. Navigate to the folder where the file is found <br>
+2. Navigate to the folder where the file is located <br>
 3. On the command line execute: <br>
 &nbsp &nbsp &nbsp <code>> python3 TOCTTOU.py </code> <br>
 
