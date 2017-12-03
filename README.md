@@ -3,7 +3,7 @@ A (very) short program to test the TOCTTOU problem.<br>
 TOCTTOU stands for 'Time of check to time of use', you can learn more about this problem on <a href="https://en.wikipedia.org/wiki/Time_of_check_to_time_of_use">this Wikipedia article!</a>
 
 <h3>Test Instructions:</h3>
-Run file <b>TOCTTOU.py</b> as instructed below. Follow each of the tests below and reflect on the results: <br>
+Run file <b>TOCTTOU.py</b> as instructed below. Follow each of the tests and reflect on the results: <br>
 
 <b>Test I - </b>Run the program normally, edit the file and save the changes.<br>
 <b>Test II - </b>Run the program, then remove your writing rights before trying to save the changes.<br>
