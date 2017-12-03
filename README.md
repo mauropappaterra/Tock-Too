@@ -3,7 +3,7 @@ A (very) short program to test the TOCTTOU problem.<br>
 TOCTTOU stands for 'Time of check to time of use', you can learn more about this problem on <a href="https://en.wikipedia.org/wiki/Time_of_check_to_time_of_use">this Wikipedia article!</a>
 
 <h3>Test Instructions:</h3>
-Run file <b>TOCTTOU.py</b> as instructed below.
+Run file <b>TOCTTOU.py</b> as instructed below. <br>
 
 <b>Test I - </b>Run the program normally, edit the file and save the changes.<br>
 <b>Test II - </b>Run the program, then remove your writing rights before trying to save the changes.<br>
@@ -19,13 +19,13 @@ Run file <b>TOCTTOU.py</b> as instructed below.
 1. Open a terminal <br>
 2. Navigate to the folder where the file is found <br>
 3. On the command line execute: <br>
-&nbsp &nbsp &nbsp <code>> python3 TOCTTOU.py  <br></code>
+&nbsp &nbsp &nbsp <code>> python3 TOCTTOU.py </code> <br>
 4. Do not hesitate to contact me if you have any problems running this program <br>
 
 <h5>From a Python Interpreter:</h5>
 1. Open Python <br>
 2. On the prompt execute: <br>
-> exec(open("**path**/TOCTTOU.py").read())< <br>
-<b>Replace **path** with the local path to the folder that contains the file TOCTTOU.py</b> <br>
+&nbsp &nbsp &nbsp <code>> exec(open("<i>path</i>/TOCTTOU.py").read())</code> <br>
+<b>Replace <i>path</i> with the local path to the folder that contains the file TOCTTOU.py</b> <br>
 3. Do not hesitate to contact me if you have any problems running this program <br>
 
