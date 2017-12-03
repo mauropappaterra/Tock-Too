@@ -3,8 +3,8 @@ A (very) short program to test the TOCTTOU problem.<br>
 TOCTTOU stands for 'Time of check to time of use', you can learn more about this problem on <a href="https://en.wikipedia.org/wiki/Time_of_check_to_time_of_use">this Wikipedia article!</a>
 
 <h3>Instructions to run the program</h3>
--To run this program in your computer you need to <a>download and install Python 3.</a><br>
--To execute from the command line on a Ms Windows system you need to <a>add Python to the PATH environmental variable.</a><br>
+-To run this program in your computer you need to <a href="https://www.python.org/downloads/">download and install Python 3.</a><br>
+-To execute from the command line on a Ms Windows system you need to <a href="https://docs.python.org/2/using/windows.html">add Python to the PATH environmental variable.</a><br>
 
 <h5>From the command line:</h5>
 1. Open a terminal
